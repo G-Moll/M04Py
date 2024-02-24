@@ -1,1 +1,0 @@
-# Functions: Map, Filter, Reduce
