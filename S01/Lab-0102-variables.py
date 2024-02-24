@@ -1,4 +1,5 @@
 # VARIABLES
+# Las variables son identificadores (etiquetas) que apuntan a un espacio de memoria que almacena un valor
 name = "Python"
 version = 3.12
 multipurpose = True
