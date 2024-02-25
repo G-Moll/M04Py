@@ -1,7 +1,13 @@
 # CHALLENGE: FILTER
 # De una lista de diccionarios, filtrar las personas que sean de CDMX y mayores de Edad
 
-people = [ { "name": "Juan", "age": 18, "city": "CDMX" }, { "name": "Alberto", "age": 16, "city": "CDMX" }, { "name": "Peter", "age": 28, "city": "OAX" }, { "name": "Alejandra", "age": 26, "city": "CDMX" }, { "name": "Mariana", "age": 28, "city": "PUE" } ]
+people = [
+    { "name": "Alejandra", "age": 26, "city": "CDMX" },
+    { "name": "Juan", "age": 46, "city": "CDMX" },
+    { "name": "Alberto", "age": 16, "city": "CDMX" },
+    { "name": "Peter", "age": 28, "city": "OAX" },
+    { "name": "Mariana", "age": 28, "city": "PUE" }
+]
 
 def filterPeople( person ):
     if person[ "age" ] >= 18 and person[ "city" ] == "CDMX":

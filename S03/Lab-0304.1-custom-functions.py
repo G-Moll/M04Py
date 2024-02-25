@@ -1,10 +1,10 @@
 # Custom Functions
-def hello():
-    pass # Regresa un valor implicito
+def hello(): # Regresa un valor implícito
+    pass     # Sirve para crear posteriormente el cuerpo de la función
 
 def bye():
-    return "Bye" # Regresa un vaor explicito
-    print( "Bye 2" )
+    return "Bye" # Regresa un valor explicito
+    print( "Bye 2" ) # Código después de return, NO SE PUEDE EJECUTAR
 
-print( hello() )
-print( bye() )
+print( hello() ) # Regresa un valor implícito
+print( bye() )  # Regresa un valor exlícito

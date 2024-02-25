@@ -1,8 +1,9 @@
 # Custom Functions
-def hello( msg1, msg2 ):
-    print( msg1, msg2 )
+def hello( msg1, msg2 ): # msg1, msg2 son parámetros
+    print( msg1, msg2 )  # se usan los parámetros
 
-hello( "Hola", "Platxi" )
+# Cuando se usa a la función a ello se le llama: Invocar (Invoke), Correr (Run), Ejecutar (Execute), Llamar (Call)
+hello( "Hola", "Platxi" ) # "Hola", "Platxi" son argumentos
 hello( "Bye", "Ferddy sensei de los fanboys" )
-h = hello
-h( "Hola", "Hello" )
+h = hello # Función hello referenciada
+h( "Hola", "Hello" ) # "función" h llamada

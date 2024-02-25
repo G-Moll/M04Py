@@ -27,7 +27,7 @@
 # Las expresiones son el conjunto de Operadores y Operandos, que calculan un nuevo valor
 a = 10
 print( a )
-# a ++
+a = a + 1
 print( a )
 a += 15
 print( a )

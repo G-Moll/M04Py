@@ -1,4 +1,5 @@
 # Strings
+# 'Text'        "Text"      '''Text'''      """Text"""
 # Hola        "Python"
 # Bye
 st1 = "Hola\t\t\"Python\"\nBye"
