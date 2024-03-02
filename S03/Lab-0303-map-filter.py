@@ -23,5 +23,5 @@ print( list( filteredTwos ) )
 # Reduce: APLICA UNA FUNCIÓN A CADA ÍNDICE DE UN ARREGLO, PARA GENERAR UN RESULTADO ÚNICO
 import functools
 
-print( "Sum All Array Numbers:", functools.reduce( lambda a, b: a + b, numsTwo ) )
+print( "Sum All Array Numbers:", git functools.reduce( lambda a, b: a + b, numsTwo ) )
 print( "Multiply All Array Numbers:", functools.reduce( lambda x, y: x * y, [ 1, 2, 3, 4 ] ) )
