@@ -4,6 +4,9 @@ class Student():
     age: int
     single: bool
 
+    # def __init__( self, n = "a", a = 10, s = False ):
+    #     pass
+
     def __init__( self, n, a, s ):
         self.name = n
         self.age = a
