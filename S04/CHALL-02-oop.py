@@ -7,7 +7,6 @@ class Lesson():
 
     def __init__( self, students ):
         self.students = students
-
     def start( self ):
         print( "starting lesson" )
     def conclude( self ):
@@ -24,9 +23,8 @@ class Student():
 
     def __init__( self, topic ):
         self.topic = topic
-
-    def reherce( self ):
-        print( "rehercing lesson" )
+    def rehearce( self ):
+        print( "rehearcing lesson" )
 
 student = Student( "Python" )
 print( student.topic )
