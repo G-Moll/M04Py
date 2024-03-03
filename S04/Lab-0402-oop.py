@@ -4,11 +4,14 @@ class Student():
     __name: str
     age: int
     single: bool
-    balance: int
 
     @property
     def name( self ):
         return self.__name
+
+    @name.setter
+    def name( self, name ):
+        self.__name = name
 
     # def __init__( self, n = "a", a = 10, s = False ):
     #     pass
