@@ -17,3 +17,20 @@ lesson = Lesson( 10 )
 print( lesson.students )
 lesson.start()
 lesson.conclude()
+
+
+class Student():
+    topic: str
+
+    def __init__( self, topic ):
+        self.topic = topic
+
+    def reherce( self ):
+        print( "rehercing lesson" )
+
+student = Student( "Python" )
+print( student.topic )
+student.reherce()
+student.reherce()
+
+
